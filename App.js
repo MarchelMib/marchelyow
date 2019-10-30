@@ -11,7 +11,7 @@ export default function App() {
 
     < View style={styles.container} >
       <Text>Hello am {text}</Text>
-      <TextInput onChangeText={(text) => { setText(text) }} />
+      <TextInput style={{height: 40, borderColor: 'gray', borderWidth: 1}} onChangeText={(text) => { setText(text) }} />
 
     </View >
   );
